@@ -1,0 +1,144 @@
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .all-iten{
+     display: flex;
+     
+ }
+ .first-header  p{
+     font-family:"Saness";
+ }
+ .first-header h1{
+     font-family:"Merri";
+ }
+ .warped{
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     align-items: flex-end;
+     
+ }
+ .sub-warped1, .sub-warped2, .sub-warped3{ 
+     display: flex;
+     flex-direction: column;
+     width: 193px;
+     height: 217px;
+     flex-wrap: wrap;
+     padding-right: 27px;
+ }
+ .warped-title {
+     font-family:"Merri";
+ }
+ .warped-writing{
+     font-family:"IBMP-Sans";
+ }
+ .position-card{
+     padding-top: 114px;
+ }
+ .position-card{
+     display: flex;
+     padding-top: 120px;
+ }
+ 
+ .card-blue{
+     display: flex;
+     flex-direction: column;
+     width: 302px;
+     height: 443px;
+     background-color: #151E4B;
+     border-radius: 3px;
+     align-items: center;
+ }
+ .blue-box{
+     width: 193px;
+     height: 195px;
+     padding: 50px 60px 30px 50px;
+     color: white;
+ }
+ .blue-box h4{
+     font-family:"Merri";
+ }
+ .card-blue P, h4 {
+     font-family:"IBMP-Sans";
+ }
+ .footer{
+     display: flex;
+     background-color: white;
+     color: #1B2455;
+     width: 145px;
+     height: 46px;
+     border-radius: 5px;
+     align-items: center;
+     justify-content: center;
+     margin-right: 50px  ;
+ }
+ 
+ @media screen and (max-width:344px) {
+    .all-iten{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .all-iten h1{
+        width: 260px;
+        height: 80px;
+    }
+    .first-header{
+        padding-left: 40px;
+    }
+    .first-header p {
+        padding-left: 50px;
+    }
+    .img{
+        width: 270px;
+        height: 136px;
+    }
+    .warped{
+        flex-direction: column;
+        padding: 46px 75px 0px 0px;
+        justify-content: center;
+    }
+    .sub-warped3{
+        display: none;
+    }
+    .warped-title{
+        width: 265px;
+        height: 51.43px;
+    }
+    .warped-writing{
+        width: 260px;
+        height: 80px;
+        margin-top: -15px;
+    }
+    .sub-main{
+        margin-top: -50px;
+    }
+    .position-card{
+        padding: 0px;
+        padding: 76px 39px 121px 40px;
+        margin-bottom: 20px;
+    }    
+    .card-blue{
+        width: 265px;
+        height: 322px;
+        margin: 1px;
+    }
+    .blue-box{
+        padding: 0px;
+        width: 218px;
+        height: 142px;
+    }
+    .footer{
+        width: 218px;
+        height: 46px;
+    }
+    .white-box{
+        display: flex;
+        padding: 95px 25px 0px 60px;
+    }
+ }
+ 
